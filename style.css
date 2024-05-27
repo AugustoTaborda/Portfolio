@@ -1,15 +1,16 @@
 body{
-background-color: aqua;
-font-family: Arial, Helvetica, sans-serif
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 .logo_cubo{
     display: flex;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(107, 107, 110);;
     border-radius: 50px;
-    width: 95%;
+    width: 98%;
     padding: 15px;
 }
 
@@ -17,7 +18,7 @@ font-family: Arial, Helvetica, sans-serif
     border-radius: 100%;
     width: 70px;
     object-position: center; 
-    margin-top: -95px;
+    margin-top: -85px;
     margin-left: 20px;;
     display: flex;
 }
@@ -28,11 +29,281 @@ margin-left: 90px;
 margin-right: 100px;
 }
 
-.Home_logo{
+#Home_logo{
 display: flex;
-margin-left: 800px;
-margin-top: -40px;
+margin-left: 1300px;
+width: 70px;
+margin-top: -65px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 25px;
 }
 
+.Sobre_logo{
+
+display: flex;
+margin-left: 1400px;
+width: 70px;
+margin-top: -36px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+}
+
+#Projetos_logo{
+width: 70px;
+display: flex;
+margin-left: 1500px;
+margin-top: -36px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+}
+
+
+.Cubo_dois{
+background-color: rgb(107, 107, 110);
+display: flex;
+width: 98%;
+padding: 15px;
+padding-top: 40%;
+margin-top: 90px;
+border-radius: 50px;
+}
+
+.Bloco_do_meio_home{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+max-width: 50rem;
+width: 92%;
+text-align: center;
+}
+
+.Primeiro_texto{
+color: white;
+font-size: 3rem;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+}
+
+.Sua_informação {
+margin: 3rem auto 0 auto;
+max-width: 80rem;
+}
+
+.Segundo_texto {
+color: rgb(255, 255, 255);
+font-size: 1.8rem;
+text-align: center;
+width: 100%;
+line-height: 1.6;
+}
+
+.home_logo_botao {
+    margin-top: 5rem;
+    text-align: center;
+
+}
+
+.Projetos_Botao{
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px 0 rgb(255, 254, 254);
+    transition: .3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.Link_sobre{
+    color: white;
+    text-decoration: none;
+
+}
+
+.Link_Home{
+    color: white;
+    text-decoration: none;
+
+}
+
+.Link_projetos{
+    color: white;
+    text-decoration: none;
+
+}
+
+.Traco_Azul{
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.Bloco_do_meio_Sobre{
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+.texto_sub{
+    color: #777;
+    font-size: 1.5rem;
+    margin: 60px;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+}
+
+.sobre{
+    background: #fafafa;
+}
+
+.Sobre_Contexto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+}
+.Titulo_Sobre{
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.Titulo_Sobre_Detalhes-Texto {
+    font-size: 1.5rem;
+    color: grey;
+    max-width: 40rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.Titulo_Abilidade{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.Abilidade{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Abilidade_Abilidade{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 700;
+    color: #777;
+}
+
+.Segunda_Pagina_Sobre{
+    padding: 14rem 0;
+    
+}
+
+.Terceiro_Pagina_projects{
+    background-color: #fafafa;
+
+}
+
+.Traco_Azul1{
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.Texto_Sub_Terceiro{
+    color: #777;
+    font-size: 1.5rem;
+    margin: 60px;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+}
+
+.Bloco_de_meio_projectos{
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+
+.projects_Linha{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.projects_Moldura {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.projects_Linha_Cotexto{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projects_Titulo{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.projects_Detalhes{
+    font-size: 1.5rem;
+    color: grey;
+    max-width: 60rem;
+    line-height: 1;
+    margin-bottom: 1rem
+}
+
+.Caso{
+    background: #fff;
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+}
+
+.Caso-Logo{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+}
+
+.Caso-Logo_Detalhe{
+    background: #0062b9;
+    color: #fff;
+}
